@@ -67,44 +67,32 @@ export default function PostcodesPage() {
      </CardHeader>
      <CardContent className="px-2 py-6 md:px-6">
       <div className="flex gap-2 mb-6">
-       <TooltipProvider>
-        <Tooltip>
-         <TooltipTrigger asChild>
-          <div>
-           <label
-            htmlFor="region-select"
-            className="block text-sm font-medium text-gray-700 mb-2"
-           >
-            Select State
-           </label>
-           <Select
-            value={selectedRegion || "all"}
-            onValueChange={(value) =>
-             setSelectedRegion(value === "all" ? null : value)
-            }
-           >
-            <SelectTrigger
-             id="region-select"
-             className="w-full md:w-[200px] bg-gray-50 cursor-not-allowed"
-            >
-             <SelectValue placeholder="Select a state" />
-            </SelectTrigger>
-            <SelectContent>
-             <SelectItem value="all">All States</SelectItem>
-             {regions.map((region) => (
-              <SelectItem key={region} value={region}>
-               {region}
-              </SelectItem>
-             ))}
-            </SelectContent>
-           </Select>
-          </div>
-         </TooltipTrigger>
-         <TooltipContent>
-          <p className="text-sm">Coming soon!</p>
-         </TooltipContent>
-        </Tooltip>
-       </TooltipProvider>
+       <div>
+        <label
+         htmlFor="region-select"
+         className="block text-sm font-medium text-gray-700 mb-2"
+        >
+         Select State
+        </label>
+        <Select
+         value={selectedRegion || "all"}
+         onValueChange={(value) =>
+          setSelectedRegion(value === "all" ? null : value)
+         }
+        >
+         <SelectTrigger id="region-select" className="w-full md:w-[200px]">
+          <SelectValue placeholder="Select a state" />
+         </SelectTrigger>
+         <SelectContent>
+          <SelectItem value="all">All States</SelectItem>
+          {regions.map((region) => (
+           <SelectItem key={region} value={region}>
+            {region}
+           </SelectItem>
+          ))}
+         </SelectContent>
+        </Select>
+       </div>
 
        {/* LGA Select */}
        <TooltipProvider>
