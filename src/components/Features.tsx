@@ -24,7 +24,13 @@ const features = [
   description: "Integrate postcode data directly into your applications.",
   icon: Code,
   status: "coming-soon"
- }
+ },
+ {
+  name: "Map Visualization",
+  description: "Interactive map of Nigeria with state-level navigation.",
+  icon: Map,
+  status: "coming-soon"
+},
 ];
 
 export function Features() {
