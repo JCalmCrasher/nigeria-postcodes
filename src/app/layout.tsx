@@ -2,9 +2,10 @@ import { Footer } from "@/components/Footer";
 import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
-const geistSans = Space_Grotesk({
- variable: "--font-geist-sans",
+const spaceGrotesk = Space_Grotesk({
+ variable: "--font-space-grotesk",
  subsets: ["latin"]
 });
 
@@ -23,8 +24,9 @@ export default function RootLayout({
    <head>
     <meta name="viewport" content="initial-scale=1, width=device-width" />
    </head>
-   <body className={`${geistSans.className} antialiased`}>
+   <body className={`${spaceGrotesk.className} antialiased`}>
     {children}
+    <ScrollToTop />
     <Footer />
    </body>
   </html>
