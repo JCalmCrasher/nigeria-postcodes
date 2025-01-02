@@ -34,7 +34,7 @@ const POSTCODES = [
  { code: "200001", region: "Oyo" },
  { code: "930001", region: "Plateau" },
  { code: "500001", region: "Rivers" },
- { code: "840001", region: "Sokoto" },
+ { code: "840101", region: "Sokoto" },
  { code: "660001", region: "Taraba" },
  { code: "320001", region: "Yobe" },
  { code: "860001", region: "Zamfara" }
