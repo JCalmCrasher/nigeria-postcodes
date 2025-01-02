@@ -15,7 +15,6 @@ const POSTCODES = [
  { code: "300001", region: "Edo" },
  { code: "360001", region: "Ekiti" },
  { code: "400001", region: "Enugu" },
- { code: "900001", region: "Federal Capital Territory" },
  { code: "760001", region: "Gombe" },
  { code: "460001", region: "Imo" },
  { code: "720001", region: "Jigawa" },
@@ -36,8 +35,9 @@ const POSTCODES = [
  { code: "500001", region: "Rivers" },
  { code: "840101", region: "Sokoto" },
  { code: "660001", region: "Taraba" },
- { code: "320001", region: "Yobe" },
- { code: "860001", region: "Zamfara" }
+ { code: "620001", region: "Yobe" },
+ { code: "880001", region: "Zamfara" },
+ { code: "900001", region: "Federal Capital Territory" }
 ];
 
 const REGIONS = Array.from(new Set(POSTCODES.map((pc) => pc.region)));
