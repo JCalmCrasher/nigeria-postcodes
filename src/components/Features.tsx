@@ -1,4 +1,4 @@
-import { Search, Map, Copy, Code } from "lucide-react";
+import { Search, Map, Copy, Code, Navigation } from "lucide-react";
 
 const features = [
  {
@@ -30,7 +30,14 @@ const features = [
   description: "Interactive map of Nigeria with state-level navigation.",
   icon: Map,
   status: "coming-soon"
-},
+ },
+ {
+  name: "Location-Based Search",
+  description:
+   "Find postcodes instantly using your current location or by selecting areas on the interactive map.",
+  icon: Navigation,
+  status: "coming-soon"
+ }
 ];
 
 export function Features() {
