@@ -1,6 +1,6 @@
 interface Postcode {
  code: string;
- area: string;
+//  area: string;
  region: string;
 }
 

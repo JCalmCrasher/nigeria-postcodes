@@ -57,7 +57,7 @@ export default function PostcodesPage() {
    <Hero />
    <Features />
 
-   <div className="container mx-auto p-4 max-w-4xl">
+   <div className="container mx-auto p-4 max-w-4xl mb-10">
     <Card
      id="postcodes-table"
      className="mb-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in-up overflow-hidden scroll-mt-16"
@@ -100,8 +100,7 @@ export default function PostcodesPage() {
         <TableHeader>
          <TableRow className="bg-gradient-to-r from-green-50 to-green-100">
           <TableHead className="font-bold text-green-800">Code</TableHead>
-          <TableHead className="font-bold text-green-800">Area</TableHead>
-          <TableHead className="font-bold text-green-800">Region</TableHead>
+          <TableHead className="font-bold text-green-800">State</TableHead>
          </TableRow>
         </TableHeader>
         <TableBody>
@@ -140,32 +139,6 @@ export default function PostcodesPage() {
            </TableCell>
            <TableCell className="relative">
             <div className="flex items-center space-x-2">
-             <span>{postcode.area}</span>
-             <TooltipProvider>
-              <Tooltip>
-               <TooltipTrigger asChild>
-                <Button
-                 variant="ghost"
-                 size="icon"
-                 className="h-8 w-8 p-0"
-                 onClick={() => handleCopyCell(postcode.area)}
-                >
-                 {copiedCell === postcode.area ? (
-                  <Check className="h-4 w-4" />
-                 ) : (
-                  <Copy className="h-4 w-4" />
-                 )}
-                </Button>
-               </TooltipTrigger>
-               <TooltipContent>
-                <p>{copiedCell === postcode.area ? "Copied!" : "Copy area"}</p>
-               </TooltipContent>
-              </Tooltip>
-             </TooltipProvider>
-            </div>
-           </TableCell>
-           <TableCell className="relative">
-            <div className="flex items-center space-x-2">
              <span>{postcode.region}</span>
              <TooltipProvider>
               <Tooltip>
@@ -185,7 +158,7 @@ export default function PostcodesPage() {
                </TooltipTrigger>
                <TooltipContent>
                 <p>
-                 {copiedCell === postcode.region ? "Copied!" : "Copy region"}
+                 {copiedCell === postcode.region ? "Copied!" : "Copy state"}
                 </p>
                </TooltipContent>
               </Tooltip>
