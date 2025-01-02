@@ -82,7 +82,6 @@ export default function PostcodesPage() {
             onValueChange={(value) =>
              setSelectedRegion(value === "all" ? null : value)
             }
-            disabled
            >
             <SelectTrigger
              id="region-select"
