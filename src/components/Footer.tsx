@@ -6,7 +6,7 @@ export function Footer() {
    <div className="container mx-auto px-4">
     <code className="flex flex-col md:flex-row justify-center items-center text-sm text-green-700 space-y-4 md:space-y-0">
      <div className="flex items-center space-x-2">
-      <span>built with</span>
+      <span>bootstrapped with</span>
       <Link
        href="https://v0.dev"
        className="hover:text-green-800 transition-colors"
