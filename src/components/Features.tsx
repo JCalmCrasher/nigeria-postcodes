@@ -1,20 +1,29 @@
-import { Search, Map, Copy } from "lucide-react";
+import { Search, Map, Copy, Code } from "lucide-react";
 
 const features = [
  {
   name: "Easy Search",
   description: "Quickly find postcodes for any area in Nigeria.",
-  icon: Search
- },
- {
-  name: "Regional Filtering",
-  description: "Filter postcodes by region for more specific results.",
-  icon: Map
+  icon: Search,
+  status: "available"
  },
  {
   name: "Copy Functionality",
   description: "Easily copy results in JSON or CSV format.",
-  icon: Copy
+  icon: Copy,
+  status: "available"
+ },
+ {
+  name: "Regional Filtering",
+  description: "Filter postcodes by region for more specific results.",
+  icon: Map,
+  status: "coming-soon"
+ },
+ {
+  name: "API Access",
+  description: "Integrate postcode data directly into your applications.",
+  icon: Code,
+  status: "coming-soon"
  }
 ];
 
@@ -37,12 +46,27 @@ export function Features() {
         }`}
        >
         <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-         <div className="rounded-lg bg-green-700 p-2 ring-2 ring-white">
+         <div
+          className={`rounded-lg p-2 ring-2 ring-white ${
+           feature.status === "coming-soon" ? "bg-gray-400" : "bg-green-700"
+          }`}
+         >
           <feature.icon className="h-5 w-5 text-white" aria-hidden="true" />
          </div>
-         {feature.name}
+         <div className="flex items-center gap-2">
+          {feature.name}
+          {feature.status === "coming-soon" && (
+           <span className="inline-flex items-center rounded-full bg-gray-100 px-2 py-1 text-xs font-medium text-gray-600">
+            Coming soon
+           </span>
+          )}
+         </div>
         </dt>
-        <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+        <dd
+         className={`mt-4 flex flex-auto flex-col text-base leading-7 ${
+          feature.status === "coming-soon" ? "text-gray-500" : "text-gray-600"
+         }`}
+        >
          <p className="flex-auto">{feature.description}</p>
         </dd>
        </div>
