@@ -60,115 +60,236 @@ export default function PostcodesPage() {
    <div className="container mx-auto p-4 max-w-4xl mb-10">
     <Card
      id="postcodes-table"
-     className="mb-6 shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in-up overflow-hidden scroll-mt-16"
+     className="md:border border-none mb-6 md:shadow-lg hover:shadow-xl transition-shadow duration-300 animate-fade-in-up overflow-hidden scroll-mt-16"
     >
      <CardHeader className="bg-gradient-to-r from-green-700 to-green-800 text-white">
       <CardTitle className="text-2xl font-bold">Find Postcodes</CardTitle>
      </CardHeader>
-     <CardContent className="p-6">
-      <div className="mb-6">
-       <label
-        htmlFor="region-select"
-        className="block text-sm font-medium text-gray-700 mb-2"
-       >
-        Select Region
-       </label>
-       <Select
-        value={selectedRegion || "all"}
-        onValueChange={(value) =>
-         setSelectedRegion(value === "all" ? null : value)
-        }
-       >
-        <SelectTrigger
-         id="region-select"
-         className="w-full md:w-[200px] bg-white"
-        >
-         <SelectValue placeholder="Select a region" />
-        </SelectTrigger>
-        <SelectContent>
-         <SelectItem value="all">All Regions</SelectItem>
-         {regions.map((region) => (
-          <SelectItem key={region} value={region}>
-           {region}
-          </SelectItem>
-         ))}
-        </SelectContent>
-       </Select>
+     <CardContent className="px-2 py-6 md:px-6">
+      <div className="flex gap-2 mb-6">
+       <TooltipProvider>
+        <Tooltip>
+         <TooltipTrigger asChild>
+          <div>
+           <label
+            htmlFor="region-select"
+            className="block text-sm font-medium text-gray-700 mb-2"
+           >
+            Select State
+           </label>
+           <Select
+            value={selectedRegion || "all"}
+            onValueChange={(value) =>
+             setSelectedRegion(value === "all" ? null : value)
+            }
+            disabled
+           >
+            <SelectTrigger
+             id="region-select"
+             className="w-full md:w-[200px] bg-gray-50 cursor-not-allowed"
+            >
+             <SelectValue placeholder="Select a state" />
+            </SelectTrigger>
+            <SelectContent>
+             <SelectItem value="all">All States</SelectItem>
+             {regions.map((region) => (
+              <SelectItem key={region} value={region}>
+               {region}
+              </SelectItem>
+             ))}
+            </SelectContent>
+           </Select>
+          </div>
+         </TooltipTrigger>
+         <TooltipContent>
+          <p className="text-sm">Coming soon!</p>
+         </TooltipContent>
+        </Tooltip>
+       </TooltipProvider>
+
+       {/* LGA Select */}
+       <TooltipProvider>
+        <Tooltip>
+         <TooltipTrigger asChild>
+          <div>
+           <label
+            htmlFor="lga-select"
+            className="block text-sm font-medium text-gray-700 mb-2"
+           >
+            Select LGA
+           </label>
+           <Select disabled>
+            <SelectTrigger
+             id="lga-select"
+             className="w-full md:w-[200px] bg-gray-50 cursor-not-allowed"
+            >
+             <SelectValue placeholder="Select an LGA" />
+            </SelectTrigger>
+            <SelectContent>
+             <SelectItem value="all">All LGAs</SelectItem>
+            </SelectContent>
+           </Select>
+          </div>
+         </TooltipTrigger>
+         <TooltipContent>
+          <p className="text-sm">Coming soon!</p>
+         </TooltipContent>
+        </Tooltip>
+       </TooltipProvider>
       </div>
-      <div className="overflow-x-auto bg-white rounded-lg shadow">
-       <Table>
-        <TableHeader>
-         <TableRow className="bg-gradient-to-r from-green-50 to-green-100">
-          <TableHead className="font-bold text-green-800">Code</TableHead>
-          <TableHead className="font-bold text-green-800">State</TableHead>
-         </TableRow>
-        </TableHeader>
-        <TableBody>
-         {postcodes.map((postcode, index) => (
-          <TableRow
-           key={postcode.code}
-           className={`animate-fade-in-up animation-delay-${
-            (index + 1) * 100
-           } hover:bg-gray-50`}
-          >
-           <TableCell className="relative">
-            <div className="flex items-center space-x-2">
-             <span>{postcode.code}</span>
-             <TooltipProvider>
-              <Tooltip>
-               <TooltipTrigger asChild>
-                <Button
-                 variant="ghost"
-                 size="icon"
-                 className="h-8 w-8 p-0"
-                 onClick={() => handleCopyCell(postcode.code)}
-                >
-                 {copiedCell === postcode.code ? (
-                  <Check className="h-4 w-4" />
-                 ) : (
-                  <Copy className="h-4 w-4" />
-                 )}
-                </Button>
-               </TooltipTrigger>
-               <TooltipContent>
-                <p>{copiedCell === postcode.code ? "Copied!" : "Copy code"}</p>
-               </TooltipContent>
-              </Tooltip>
-             </TooltipProvider>
-            </div>
-           </TableCell>
-           <TableCell className="relative">
-            <div className="flex items-center space-x-2">
-             <span>{postcode.region}</span>
-             <TooltipProvider>
-              <Tooltip>
-               <TooltipTrigger asChild>
-                <Button
-                 variant="ghost"
-                 size="icon"
-                 className="h-8 w-8 p-0"
-                 onClick={() => handleCopyCell(postcode.region)}
-                >
-                 {copiedCell === postcode.region ? (
-                  <Check className="h-4 w-4" />
-                 ) : (
-                  <Copy className="h-4 w-4" />
-                 )}
-                </Button>
-               </TooltipTrigger>
-               <TooltipContent>
-                <p>
-                 {copiedCell === postcode.region ? "Copied!" : "Copy state"}
-                </p>
-               </TooltipContent>
-              </Tooltip>
-             </TooltipProvider>
-            </div>
-           </TableCell>
+      <div className="hidden md:block">
+       <div
+        className="overflow-y-auto bg-white rounded-lg shadow"
+        style={{ maxHeight: "480px" }}
+       >
+        <Table>
+         <TableHeader className="sticky top-0 bg-white z-10">
+          <TableRow className="bg-gradient-to-r from-green-50 to-green-100">
+           <TableHead className="font-bold text-green-800">Code</TableHead>
+           <TableHead className="font-bold text-green-800">State</TableHead>
           </TableRow>
-         ))}
-        </TableBody>
-       </Table>
+         </TableHeader>
+         <TableBody>
+          {postcodes.map((postcode, index) => (
+           <TableRow
+            key={postcode.code}
+            className={`animate-fade-in-up animation-delay-${
+             (index + 1) * 100
+            } hover:bg-gray-50`}
+           >
+            <TableCell className="relative">
+             <div className="flex items-center space-x-2">
+              <span>{postcode.code}</span>
+              <TooltipProvider>
+               <Tooltip>
+                <TooltipTrigger asChild>
+                 <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8 p-0"
+                  onClick={() => handleCopyCell(postcode.code)}
+                 >
+                  {copiedCell === postcode.code ? (
+                   <Check className="h-4 w-4" />
+                  ) : (
+                   <Copy className="h-4 w-4" />
+                  )}
+                 </Button>
+                </TooltipTrigger>
+                <TooltipContent>
+                 <p>{copiedCell === postcode.code ? "Copied!" : "Copy code"}</p>
+                </TooltipContent>
+               </Tooltip>
+              </TooltipProvider>
+             </div>
+            </TableCell>
+            <TableCell className="relative">
+             <div className="flex items-center space-x-2">
+              <span>{postcode.region}</span>
+              <TooltipProvider>
+               <Tooltip>
+                <TooltipTrigger asChild>
+                 <Button
+                  variant="ghost"
+                  size="icon"
+                  className="h-8 w-8 p-0"
+                  onClick={() => handleCopyCell(postcode.region)}
+                 >
+                  {copiedCell === postcode.region ? (
+                   <Check className="h-4 w-4" />
+                  ) : (
+                   <Copy className="h-4 w-4" />
+                  )}
+                 </Button>
+                </TooltipTrigger>
+                <TooltipContent>
+                 <p>
+                  {copiedCell === postcode.region ? "Copied!" : "Copy state"}
+                 </p>
+                </TooltipContent>
+               </Tooltip>
+              </TooltipProvider>
+             </div>
+            </TableCell>
+           </TableRow>
+          ))}
+         </TableBody>
+        </Table>
+       </div>
+      </div>
+
+      {/* Mobile Layout */}
+      <div className="md:hidden">
+       <div
+        className="space-y-4 overflow-y-auto"
+        style={{ maxHeight: "480px" }}
+       >
+        {postcodes.map((postcode, index) => (
+         <div
+          key={postcode.code}
+          className={`bg-white p-4 rounded-lg shadow animate-fade-in-up animation-delay-${
+           (index + 1) * 100
+          } hover:bg-gray-50`}
+         >
+          <div className="flex justify-between items-center mb-2">
+           <div className="flex items-center space-x-2">
+            <span className="font-medium">Code:</span>
+            <span>{postcode.code}</span>
+            <TooltipProvider>
+             <Tooltip>
+              <TooltipTrigger asChild>
+               <Button
+                variant="ghost"
+                size="icon"
+                className="h-8 w-8 p-0"
+                onClick={() => handleCopyCell(postcode.code)}
+               >
+                {copiedCell === postcode.code ? (
+                 <Check className="h-4 w-4" />
+                ) : (
+                 <Copy className="h-4 w-4" />
+                )}
+               </Button>
+              </TooltipTrigger>
+              <TooltipContent>
+               <p>{copiedCell === postcode.code ? "Copied!" : "Copy code"}</p>
+              </TooltipContent>
+             </Tooltip>
+            </TooltipProvider>
+           </div>
+          </div>
+          <div className="flex justify-between items-center">
+           <div className="flex items-center space-x-2">
+            <span className="font-medium">State:</span>
+            <span>{postcode.region}</span>
+            <TooltipProvider>
+             <Tooltip>
+              <TooltipTrigger asChild>
+               <Button
+                variant="ghost"
+                size="icon"
+                className="h-8 w-8 p-0"
+                onClick={() => handleCopyCell(postcode.region)}
+               >
+                {copiedCell === postcode.region ? (
+                 <Check className="h-4 w-4" />
+                ) : (
+                 <Copy className="h-4 w-4" />
+                )}
+               </Button>
+              </TooltipTrigger>
+              <TooltipContent>
+               <p>
+                {copiedCell === postcode.region ? "Copied!" : "Copy state"}
+               </p>
+              </TooltipContent>
+             </Tooltip>
+            </TooltipProvider>
+           </div>
+          </div>
+         </div>
+        ))}
+       </div>
       </div>
      </CardContent>
     </Card>
