@@ -1,0 +1,2732 @@
+{
+ "states": [
+  {
+   "code": "440001",
+   "region": "Abia",
+   "lgas": [
+    {
+     "name": "Aba North",
+     "postcode": "440102"
+    },
+    {
+     "name": "Aba South",
+     "postcode": "440103"
+    },
+    {
+     "name": "Arochukwu",
+     "postcode": "440104"
+    },
+    {
+     "name": "Bende",
+     "postcode": "440105"
+    },
+    {
+     "name": "Ikwuano",
+     "postcode": "440106"
+    },
+    {
+     "name": "Isiala Ngwa North",
+     "postcode": "440107"
+    },
+    {
+     "name": "Isiala Ngwa South",
+     "postcode": "440108"
+    },
+    {
+     "name": "Isuikwuato",
+     "postcode": "440109"
+    },
+    {
+     "name": "Obi Ngwa",
+     "postcode": "440110"
+    },
+    {
+     "name": "Ohafia",
+     "postcode": "440111"
+    },
+    {
+     "name": "Osisioma",
+     "postcode": "440112"
+    },
+    {
+     "name": "Ugwunagbo",
+     "postcode": "440113"
+    },
+    {
+     "name": "Ukwa East",
+     "postcode": "440114"
+    },
+    {
+     "name": "Ukwa West",
+     "postcode": "440115"
+    },
+    {
+     "name": "Umuahia North",
+     "postcode": "440116"
+    },
+    {
+     "name": "Umuahia South",
+     "postcode": "440117"
+    },
+    {
+     "name": "Umu Nneochi",
+     "postcode": "440118"
+    }
+   ]
+  },
+  {
+   "code": "640001",
+   "region": "Adamawa",
+   "lgas": [
+    {
+     "name": "Demsa",
+     "postcode": "640102"
+    },
+    {
+     "name": "Fufure",
+     "postcode": "640103"
+    },
+    {
+     "name": "Ganye",
+     "postcode": "640104"
+    },
+    {
+     "name": "Gayuk",
+     "postcode": "640105"
+    },
+    {
+     "name": "Gombi",
+     "postcode": "640106"
+    },
+    {
+     "name": "Grie",
+     "postcode": "640107"
+    },
+    {
+     "name": "Hong",
+     "postcode": "640108"
+    },
+    {
+     "name": "Jada",
+     "postcode": "640109"
+    },
+    {
+     "name": "Lamurde",
+     "postcode": "640110"
+    },
+    {
+     "name": "Madagali",
+     "postcode": "640111"
+    },
+    {
+     "name": "Maiha",
+     "postcode": "640112"
+    },
+    {
+     "name": "Mayo Belwa",
+     "postcode": "640113"
+    },
+    {
+     "name": "Michika",
+     "postcode": "640114"
+    },
+    {
+     "name": "Mubi North",
+     "postcode": "640115"
+    },
+    {
+     "name": "Mubi South",
+     "postcode": "640116"
+    },
+    {
+     "name": "Numan",
+     "postcode": "640117"
+    },
+    {
+     "name": "Shelleng",
+     "postcode": "640118"
+    },
+    {
+     "name": "Song",
+     "postcode": "640119"
+    },
+    {
+     "name": "Toungo",
+     "postcode": "640120"
+    },
+    {
+     "name": "Yola North",
+     "postcode": "640121"
+    },
+    {
+     "name": "Yola South",
+     "postcode": "640122"
+    }
+   ]
+  },
+  {
+   "code": "520001",
+   "region": "Akwa Ibom",
+   "lgas": [
+    {
+     "name": "Abak",
+     "postcode": "520102"
+    },
+    {
+     "name": "Eastern Obolo",
+     "postcode": "520103"
+    },
+    {
+     "name": "Eket",
+     "postcode": "520104"
+    },
+    {
+     "name": "Esit Eket",
+     "postcode": "520105"
+    },
+    {
+     "name": "Essien Udim",
+     "postcode": "520106"
+    },
+    {
+     "name": "Etim Ekpo",
+     "postcode": "520107"
+    },
+    {
+     "name": "Etinan",
+     "postcode": "520108"
+    },
+    {
+     "name": "Ibeno",
+     "postcode": "520109"
+    },
+    {
+     "name": "Ibesikpo Asutan",
+     "postcode": "520110"
+    },
+    {
+     "name": "Ibiono-Ibom",
+     "postcode": "520111"
+    },
+    {
+     "name": "Ika",
+     "postcode": "520112"
+    },
+    {
+     "name": "Ikono",
+     "postcode": "520113"
+    },
+    {
+     "name": "Ikot Abasi",
+     "postcode": "520114"
+    },
+    {
+     "name": "Ikot Ekpene",
+     "postcode": "520115"
+    },
+    {
+     "name": "Ini",
+     "postcode": "520116"
+    },
+    {
+     "name": "Itu",
+     "postcode": "520117"
+    },
+    {
+     "name": "Mbo",
+     "postcode": "520118"
+    },
+    {
+     "name": "Mkpat-Enin",
+     "postcode": "520119"
+    },
+    {
+     "name": "Nsit-Atai",
+     "postcode": "520120"
+    },
+    {
+     "name": "Nsit-Ibom",
+     "postcode": "520121"
+    },
+    {
+     "name": "Nsit-Ubium",
+     "postcode": "520122"
+    },
+    {
+     "name": "Obot Akara",
+     "postcode": "520123"
+    },
+    {
+     "name": "Okobo",
+     "postcode": "520124"
+    },
+    {
+     "name": "Onna",
+     "postcode": "520125"
+    },
+    {
+     "name": "Oron",
+     "postcode": "520126"
+    },
+    {
+     "name": "Oruk Anam",
+     "postcode": "520127"
+    },
+    {
+     "name": "Udung-Uko",
+     "postcode": "520128"
+    },
+    {
+     "name": "Ukanafun",
+     "postcode": "520129"
+    },
+    {
+     "name": "Uruan",
+     "postcode": "520130"
+    },
+    {
+     "name": "Urue-Offong/Oruko",
+     "postcode": "520131"
+    },
+    {
+     "name": "Uyo",
+     "postcode": "520132"
+    }
+   ]
+  },
+  {
+   "code": "420001",
+   "region": "Anambra",
+   "lgas": [
+    {
+     "name": "Aguata",
+     "postcode": "420102"
+    },
+    {
+     "name": "Anambra East",
+     "postcode": "420103"
+    },
+    {
+     "name": "Anambra West",
+     "postcode": "420104"
+    },
+    {
+     "name": "Anaocha",
+     "postcode": "420105"
+    },
+    {
+     "name": "Awka North",
+     "postcode": "420106"
+    },
+    {
+     "name": "Awka South",
+     "postcode": "420107"
+    },
+    {
+     "name": "Ayamelum",
+     "postcode": "420108"
+    },
+    {
+     "name": "Dunukofia",
+     "postcode": "420109"
+    },
+    {
+     "name": "Ekwusigo",
+     "postcode": "420110"
+    },
+    {
+     "name": "Idemili North",
+     "postcode": "420111"
+    },
+    {
+     "name": "Idemili South",
+     "postcode": "420112"
+    },
+    {
+     "name": "Ihiala",
+     "postcode": "420113"
+    },
+    {
+     "name": "Njikoka",
+     "postcode": "420114"
+    },
+    {
+     "name": "Nnewi North",
+     "postcode": "420115"
+    },
+    {
+     "name": "Nnewi South",
+     "postcode": "420116"
+    },
+    {
+     "name": "Ogbaru",
+     "postcode": "420117"
+    },
+    {
+     "name": "Onitsha North",
+     "postcode": "420118"
+    },
+    {
+     "name": "Onitsha South",
+     "postcode": "420119"
+    },
+    {
+     "name": "Orumba North",
+     "postcode": "420120"
+    },
+    {
+     "name": "Orumba South",
+     "postcode": "420121"
+    }
+   ]
+  },
+  {
+   "code": "740001",
+   "region": "Bauchi",
+   "lgas": [
+    {
+     "name": "Alkaleri",
+     "postcode": "740102"
+    },
+    {
+     "name": "Bauchi",
+     "postcode": "740103"
+    },
+    {
+     "name": "Bogoro",
+     "postcode": "740104"
+    },
+    {
+     "name": "Damban",
+     "postcode": "740105"
+    },
+    {
+     "name": "Darazo",
+     "postcode": "740106"
+    },
+    {
+     "name": "Dass",
+     "postcode": "740107"
+    },
+    {
+     "name": "Gamawa",
+     "postcode": "740108"
+    },
+    {
+     "name": "Ganjuwa",
+     "postcode": "740109"
+    },
+    {
+     "name": "Giade",
+     "postcode": "740110"
+    },
+    {
+     "name": "Itas/Gadau",
+     "postcode": "740111"
+    },
+    {
+     "name": "Jama'are",
+     "postcode": "740112"
+    },
+    {
+     "name": "Katagum",
+     "postcode": "740113"
+    },
+    {
+     "name": "Kirfi",
+     "postcode": "740114"
+    },
+    {
+     "name": "Misau",
+     "postcode": "740115"
+    },
+    {
+     "name": "Ningi",
+     "postcode": "740116"
+    },
+    {
+     "name": "Shira",
+     "postcode": "740117"
+    },
+    {
+     "name": "Tafawa Balewa",
+     "postcode": "740118"
+    },
+    {
+     "name": "Toro",
+     "postcode": "740119"
+    },
+    {
+     "name": "Warji",
+     "postcode": "740120"
+    },
+    {
+     "name": "Zaki",
+     "postcode": "740121"
+    }
+   ]
+  },
+  {
+   "code": "561001",
+   "region": "Bayelsa",
+   "lgas": [
+    {
+     "name": "Brass",
+     "postcode": "561102"
+    },
+    {
+     "name": "Ekeremor",
+     "postcode": "561103"
+    },
+    {
+     "name": "Kolokuma/Opokuma",
+     "postcode": "561104"
+    },
+    {
+     "name": "Nembe",
+     "postcode": "561105"
+    },
+    {
+     "name": "Ogbia",
+     "postcode": "561106"
+    },
+    {
+     "name": "Sagbama",
+     "postcode": "561107"
+    },
+    {
+     "name": "Southern Ijaw",
+     "postcode": "561108"
+    },
+    {
+     "name": "Yenagoa",
+     "postcode": "561109"
+    }
+   ]
+  },
+  {
+   "code": "970001",
+   "region": "Benue",
+   "lgas": [
+    {
+     "name": "Ado",
+     "postcode": "970102"
+    },
+    {
+     "name": "Agatu",
+     "postcode": "970103"
+    },
+    {
+     "name": "Apa",
+     "postcode": "970104"
+    },
+    {
+     "name": "Buruku",
+     "postcode": "970105"
+    },
+    {
+     "name": "Gboko",
+     "postcode": "970106"
+    },
+    {
+     "name": "Guma",
+     "postcode": "970107"
+    },
+    {
+     "name": "Gwer East",
+     "postcode": "970108"
+    },
+    {
+     "name": "Gwer West",
+     "postcode": "970109"
+    },
+    {
+     "name": "Katsina-Ala",
+     "postcode": "970110"
+    },
+    {
+     "name": "Konshisha",
+     "postcode": "970111"
+    },
+    {
+     "name": "Kwande",
+     "postcode": "970112"
+    },
+    {
+     "name": "Logo",
+     "postcode": "970113"
+    },
+    {
+     "name": "Makurdi",
+     "postcode": "970114"
+    },
+    {
+     "name": "Obi",
+     "postcode": "970115"
+    },
+    {
+     "name": "Ogbadibo",
+     "postcode": "970116"
+    },
+    {
+     "name": "Ohimini",
+     "postcode": "970117"
+    },
+    {
+     "name": "Oju",
+     "postcode": "970118"
+    },
+    {
+     "name": "Okpokwu",
+     "postcode": "970119"
+    },
+    {
+     "name": "Otukpo",
+     "postcode": "970120"
+    },
+    {
+     "name": "Tarka",
+     "postcode": "970121"
+    },
+    {
+     "name": "Ukum",
+     "postcode": "970122"
+    },
+    {
+     "name": "Ushongo",
+     "postcode": "970123"
+    },
+    {
+     "name": "Vandeikya",
+     "postcode": "970124"
+    }
+   ]
+  },
+  {
+   "code": "600001",
+   "region": "Borno",
+   "lgas": [
+    {
+     "name": "Abadam",
+     "postcode": "600102"
+    },
+    {
+     "name": "Askira/Uba",
+     "postcode": "600103"
+    },
+    {
+     "name": "Bama",
+     "postcode": "600104"
+    },
+    {
+     "name": "Bayo",
+     "postcode": "600105"
+    },
+    {
+     "name": "Biu",
+     "postcode": "600106"
+    },
+    {
+     "name": "Chibok",
+     "postcode": "600107"
+    },
+    {
+     "name": "Damboa",
+     "postcode": "600108"
+    },
+    {
+     "name": "Dikwa",
+     "postcode": "600109"
+    },
+    {
+     "name": "Gubio",
+     "postcode": "600110"
+    },
+    {
+     "name": "Guzamala",
+     "postcode": "600111"
+    },
+    {
+     "name": "Gwoza",
+     "postcode": "600112"
+    },
+    {
+     "name": "Hawul",
+     "postcode": "600113"
+    },
+    {
+     "name": "Jere",
+     "postcode": "600114"
+    },
+    {
+     "name": "Kaga",
+     "postcode": "600115"
+    },
+    {
+     "name": "Kala/Balge",
+     "postcode": "600116"
+    },
+    {
+     "name": "Konduga",
+     "postcode": "600117"
+    },
+    {
+     "name": "Kukawa",
+     "postcode": "600118"
+    },
+    {
+     "name": "Kwaya Kusar",
+     "postcode": "600119"
+    },
+    {
+     "name": "Mafa",
+     "postcode": "600120"
+    },
+    {
+     "name": "Magumeri",
+     "postcode": "600121"
+    },
+    {
+     "name": "Maiduguri",
+     "postcode": "600122"
+    },
+    {
+     "name": "Marte",
+     "postcode": "600123"
+    },
+    {
+     "name": "Mobbar",
+     "postcode": "600124"
+    },
+    {
+     "name": "Monguno",
+     "postcode": "600125"
+    },
+    {
+     "name": "Ngala",
+     "postcode": "600126"
+    },
+    {
+     "name": "Nganzai",
+     "postcode": "600127"
+    },
+    {
+     "name": "Shani",
+     "postcode": "600128"
+    }
+   ]
+  },
+  {
+   "code": "540001",
+   "region": "Cross River",
+   "lgas": [
+    {
+     "name": "Abi",
+     "postcode": "540102"
+    },
+    {
+     "name": "Akamkpa",
+     "postcode": "540103"
+    },
+    {
+     "name": "Akpabuyo",
+     "postcode": "540104"
+    },
+    {
+     "name": "Bakassi",
+     "postcode": "540105"
+    },
+    {
+     "name": "Bekwarra",
+     "postcode": "540106"
+    },
+    {
+     "name": "Biase",
+     "postcode": "540107"
+    },
+    {
+     "name": "Boki",
+     "postcode": "540108"
+    },
+    {
+     "name": "Calabar Municipal",
+     "postcode": "540109"
+    },
+    {
+     "name": "Calabar South",
+     "postcode": "540110"
+    },
+    {
+     "name": "Etung",
+     "postcode": "540111"
+    },
+    {
+     "name": "Ikom",
+     "postcode": "540112"
+    },
+    {
+     "name": "Obanliku",
+     "postcode": "540113"
+    },
+    {
+     "name": "Obubra",
+     "postcode": "540114"
+    },
+    {
+     "name": "Obudu",
+     "postcode": "540115"
+    },
+    {
+     "name": "Odukpani",
+     "postcode": "540116"
+    },
+    {
+     "name": "Ogoja",
+     "postcode": "540117"
+    },
+    {
+     "name": "Yakuur",
+     "postcode": "540118"
+    },
+    {
+     "name": "Yala",
+     "postcode": "540119"
+    }
+   ]
+  },
+  {
+   "code": "320001",
+   "region": "Delta",
+   "lgas": [
+    {
+     "name": "Aniocha North",
+     "postcode": "320102"
+    },
+    {
+     "name": "Aniocha South",
+     "postcode": "320103"
+    },
+    {
+     "name": "Bomadi",
+     "postcode": "320104"
+    },
+    {
+     "name": "Burutu",
+     "postcode": "320105"
+    },
+    {
+     "name": "Ethiope East",
+     "postcode": "320106"
+    },
+    {
+     "name": "Ethiope West",
+     "postcode": "320107"
+    },
+    {
+     "name": "Ika North East",
+     "postcode": "320108"
+    },
+    {
+     "name": "Ika South",
+     "postcode": "320109"
+    },
+    {
+     "name": "Isoko North",
+     "postcode": "320110"
+    },
+    {
+     "name": "Isoko South",
+     "postcode": "320111"
+    },
+    {
+     "name": "Ndokwa East",
+     "postcode": "320112"
+    },
+    {
+     "name": "Ndokwa West",
+     "postcode": "320113"
+    },
+    {
+     "name": "Okpe",
+     "postcode": "320114"
+    },
+    {
+     "name": "Oshimili North",
+     "postcode": "320115"
+    },
+    {
+     "name": "Oshimili South",
+     "postcode": "320116"
+    },
+    {
+     "name": "Patani",
+     "postcode": "320117"
+    },
+    {
+     "name": "Sapele",
+     "postcode": "320118"
+    },
+    {
+     "name": "Udu",
+     "postcode": "320119"
+    },
+    {
+     "name": "Ughelli North",
+     "postcode": "320120"
+    },
+    {
+     "name": "Ughelli South",
+     "postcode": "320121"
+    },
+    {
+     "name": "Ukwuani",
+     "postcode": "320122"
+    },
+    {
+     "name": "Uvwie",
+     "postcode": "320123"
+    },
+    {
+     "name": "Warri North",
+     "postcode": "320124"
+    },
+    {
+     "name": "Warri South",
+     "postcode": "320125"
+    },
+    {
+     "name": "Warri South West",
+     "postcode": "320126"
+    }
+   ]
+  },
+  {
+   "code": "840001",
+   "region": "Ebonyi",
+   "lgas": [
+    {
+     "name": "Abakaliki",
+     "postcode": "840102"
+    },
+    {
+     "name": "Afikpo North",
+     "postcode": "840103"
+    },
+    {
+     "name": "Afikpo South",
+     "postcode": "840104"
+    },
+    {
+     "name": "Ebonyi",
+     "postcode": "840105"
+    },
+    {
+     "name": "Ezza North",
+     "postcode": "840106"
+    },
+    {
+     "name": "Ezza South",
+     "postcode": "840107"
+    },
+    {
+     "name": "Ikwo",
+     "postcode": "840108"
+    },
+    {
+     "name": "Ishielu",
+     "postcode": "840109"
+    },
+    {
+     "name": "Ivo",
+     "postcode": "840110"
+    },
+    {
+     "name": "Izzi",
+     "postcode": "840111"
+    },
+    {
+     "name": "Ohaozara",
+     "postcode": "840112"
+    },
+    {
+     "name": "Ohaukwu",
+     "postcode": "840113"
+    },
+    {
+     "name": "Onicha",
+     "postcode": "840114"
+    }
+   ]
+  },
+  {
+   "code": "300001",
+   "region": "Edo",
+   "lgas": [
+    {
+     "name": "Akoko-Edo",
+     "postcode": "300102"
+    },
+    {
+     "name": "Egor",
+     "postcode": "300103"
+    },
+    {
+     "name": "Esan Central",
+     "postcode": "300104"
+    },
+    {
+     "name": "Esan North-East",
+     "postcode": "300105"
+    },
+    {
+     "name": "Esan South-East",
+     "postcode": "300106"
+    },
+    {
+     "name": "Esan West",
+     "postcode": "300107"
+    },
+    {
+     "name": "Etsako Central",
+     "postcode": "300108"
+    },
+    {
+     "name": "Etsako East",
+     "postcode": "300109"
+    },
+    {
+     "name": "Etsako West",
+     "postcode": "300110"
+    },
+    {
+     "name": "Igueben",
+     "postcode": "300111"
+    },
+    {
+     "name": "Ikpoba Okha",
+     "postcode": "300112"
+    },
+    {
+     "name": "Oredo",
+     "postcode": "300113"
+    },
+    {
+     "name": "Orhionmwon",
+     "postcode": "300114"
+    },
+    {
+     "name": "Ovia North-East",
+     "postcode": "300115"
+    },
+    {
+     "name": "Ovia South-West",
+     "postcode": "300116"
+    },
+    {
+     "name": "Owan East",
+     "postcode": "300117"
+    },
+    {
+     "name": "Owan West",
+     "postcode": "300118"
+    },
+    {
+     "name": "Uhunmwonde",
+     "postcode": "300119"
+    }
+   ]
+  },
+  {
+   "code": "360001",
+   "region": "Ekiti",
+   "lgas": [
+    {
+     "name": "Ado Ekiti",
+     "postcode": "360102"
+    },
+    {
+     "name": "Efon",
+     "postcode": "360103"
+    },
+    {
+     "name": "Ekiti East",
+     "postcode": "360104"
+    },
+    {
+     "name": "Ekiti South-West",
+     "postcode": "360105"
+    },
+    {
+     "name": "Ekiti West",
+     "postcode": "360106"
+    },
+    {
+     "name": "Emure",
+     "postcode": "360107"
+    },
+    {
+     "name": "Gbonyin",
+     "postcode": "360108"
+    },
+    {
+     "name": "Ido Osi",
+     "postcode": "360109"
+    },
+    {
+     "name": "Ijero",
+     "postcode": "360110"
+    },
+    {
+     "name": "Ikere",
+     "postcode": "360111"
+    },
+    {
+     "name": "Ikole",
+     "postcode": "360112"
+    },
+    {
+     "name": "Ilejemeje",
+     "postcode": "360113"
+    },
+    {
+     "name": "Irepodun/Ifelodun",
+     "postcode": "360114"
+    },
+    {
+     "name": "Ise/Orun",
+     "postcode": "360115"
+    },
+    {
+     "name": "Moba",
+     "postcode": "360116"
+    },
+    {
+     "name": "Oye",
+     "postcode": "360117"
+    }
+   ]
+  },
+  {
+   "code": "400001",
+   "region": "Enugu",
+   "lgas": [
+    {
+     "name": "Aninri",
+     "postcode": "400102"
+    },
+    {
+     "name": "Awgu",
+     "postcode": "400103"
+    },
+    {
+     "name": "Enugu East",
+     "postcode": "400104"
+    },
+    {
+     "name": "Enugu North",
+     "postcode": "400105"
+    },
+    {
+     "name": "Enugu South",
+     "postcode": "400106"
+    },
+    {
+     "name": "Ezeagu",
+     "postcode": "400107"
+    },
+    {
+     "name": "Igbo Etiti",
+     "postcode": "400108"
+    },
+    {
+     "name": "Igbo Eze North",
+     "postcode": "400109"
+    },
+    {
+     "name": "Igbo Eze South",
+     "postcode": "400110"
+    },
+    {
+     "name": "Isi Uzo",
+     "postcode": "400111"
+    },
+    {
+     "name": "Nkanu East",
+     "postcode": "400112"
+    },
+    {
+     "name": "Nkanu West",
+     "postcode": "400113"
+    },
+    {
+     "name": "Nsukka",
+     "postcode": "400114"
+    },
+    {
+     "name": "Oji River",
+     "postcode": "400115"
+    },
+    {
+     "name": "Udenu",
+     "postcode": "400116"
+    },
+    {
+     "name": "Udi",
+     "postcode": "400117"
+    },
+    {
+     "name": "Uzo Uwani",
+     "postcode": "400118"
+    }
+   ]
+  },
+  {
+   "code": "760001",
+   "region": "Gombe",
+   "lgas": [
+    {
+     "name": "Akko",
+     "postcode": "760102"
+    },
+    {
+     "name": "Balanga",
+     "postcode": "760103"
+    },
+    {
+     "name": "Billiri",
+     "postcode": "760104"
+    },
+    {
+     "name": "Dukku",
+     "postcode": "760105"
+    },
+    {
+     "name": "Funakaye",
+     "postcode": "760106"
+    },
+    {
+     "name": "Gombe",
+     "postcode": "760107"
+    },
+    {
+     "name": "Kaltungo",
+     "postcode": "760108"
+    },
+    {
+     "name": "Kwami",
+     "postcode": "760109"
+    },
+    {
+     "name": "Nafada",
+     "postcode": "760110"
+    },
+    {
+     "name": "Shongom",
+     "postcode": "760111"
+    },
+    {
+     "name": "Yamaltu/Deba",
+     "postcode": "760112"
+    }
+   ]
+  },
+  {
+   "code": "460001",
+   "region": "Imo",
+   "lgas": [
+    {
+     "name": "Aboh Mbaise",
+     "postcode": "460102"
+    },
+    {
+     "name": "Ahiazu Mbaise",
+     "postcode": "460103"
+    },
+    {
+     "name": "Ehime Mbano",
+     "postcode": "460104"
+    },
+    {
+     "name": "Ezinihitte",
+     "postcode": "460105"
+    },
+    {
+     "name": "Ideato North",
+     "postcode": "460106"
+    },
+    {
+     "name": "Ideato South",
+     "postcode": "460107"
+    },
+    {
+     "name": "Ihitte/Uboma",
+     "postcode": "460108"
+    },
+    {
+     "name": "Ikeduru",
+     "postcode": "460109"
+    },
+    {
+     "name": "Isiala Mbano",
+     "postcode": "460110"
+    },
+    {
+     "name": "Isu",
+     "postcode": "460111"
+    },
+    {
+     "name": "Mbaitoli",
+     "postcode": "460112"
+    },
+    {
+     "name": "Ngor Okpala",
+     "postcode": "460113"
+    },
+    {
+     "name": "Njaba",
+     "postcode": "460114"
+    },
+    {
+     "name": "Nkwerre",
+     "postcode": "460115"
+    },
+    {
+     "name": "Nwangele",
+     "postcode": "460116"
+    },
+    {
+     "name": "Obowo",
+     "postcode": "460117"
+    },
+    {
+     "name": "Oguta",
+     "postcode": "460118"
+    },
+    {
+     "name": "Ohaji/Egbema",
+     "postcode": "460119"
+    },
+    {
+     "name": "Okigwe",
+     "postcode": "460120"
+    },
+    {
+     "name": "Orlu",
+     "postcode": "460121"
+    },
+    {
+     "name": "Orsu",
+     "postcode": "460122"
+    },
+    {
+     "name": "Oru East",
+     "postcode": "460123"
+    },
+    {
+     "name": "Oru West",
+     "postcode": "460124"
+    },
+    {
+     "name": "Owerri Municipal",
+     "postcode": "460125"
+    },
+    {
+     "name": "Owerri North",
+     "postcode": "460126"
+    },
+    {
+     "name": "Owerri West",
+     "postcode": "460127"
+    },
+    {
+     "name": "Unuimo",
+     "postcode": "460128"
+    }
+   ]
+  },
+  {
+   "code": "720001",
+   "region": "Jigawa",
+   "lgas": [
+    {
+     "name": "Auyo",
+     "postcode": "720102"
+    },
+    {
+     "name": "Babura",
+     "postcode": "720103"
+    },
+    {
+     "name": "Biriniwa",
+     "postcode": "720104"
+    },
+    {
+     "name": "Birnin Kudu",
+     "postcode": "720105"
+    },
+    {
+     "name": "Buji",
+     "postcode": "720106"
+    },
+    {
+     "name": "Dutse",
+     "postcode": "720107"
+    },
+    {
+     "name": "Gagarawa",
+     "postcode": "720108"
+    },
+    {
+     "name": "Garki",
+     "postcode": "720109"
+    },
+    {
+     "name": "Gumel",
+     "postcode": "720110"
+    },
+    {
+     "name": "Guri",
+     "postcode": "720111"
+    },
+    {
+     "name": "Gwaram",
+     "postcode": "720112"
+    },
+    {
+     "name": "Gwiwa",
+     "postcode": "720113"
+    },
+    {
+     "name": "Hadejia",
+     "postcode": "720114"
+    },
+    {
+     "name": "Jahun",
+     "postcode": "720115"
+    },
+    {
+     "name": "Kafin Hausa",
+     "postcode": "720116"
+    },
+    {
+     "name": "Kazaure",
+     "postcode": "720117"
+    },
+    {
+     "name": "Kiri Kasama",
+     "postcode": "720118"
+    },
+    {
+     "name": "Kiyawa",
+     "postcode": "720119"
+    },
+    {
+     "name": "Maigatari",
+     "postcode": "720120"
+    },
+    {
+     "name": "Malam Madori",
+     "postcode": "720121"
+    },
+    {
+     "name": "Miga",
+     "postcode": "720122"
+    },
+    {
+     "name": "Ringim",
+     "postcode": "720123"
+    },
+    {
+     "name": "Roni",
+     "postcode": "720124"
+    },
+    {
+     "name": "Sule Tankarkar",
+     "postcode": "720125"
+    },
+    {
+     "name": "Taura",
+     "postcode": "720126"
+    },
+    {
+     "name": "Yankwashi",
+     "postcode": "720127"
+    }
+   ]
+  },
+  {
+   "code": "700001",
+   "region": "Kaduna",
+   "lgas": [
+    {
+     "name": "Birnin Gwari",
+     "postcode": "700102"
+    },
+    {
+     "name": "Chikun",
+     "postcode": "700103"
+    },
+    {
+     "name": "Giwa",
+     "postcode": "700104"
+    },
+    {
+     "name": "Igabi",
+     "postcode": "700105"
+    },
+    {
+     "name": "Ikara",
+     "postcode": "700106"
+    },
+    {
+     "name": "Jaba",
+     "postcode": "700107"
+    },
+    {
+     "name": "Jema'a",
+     "postcode": "700108"
+    },
+    {
+     "name": "Kachia",
+     "postcode": "700109"
+    },
+    {
+     "name": "Kaduna North",
+     "postcode": "700110"
+    },
+    {
+     "name": "Kaduna South",
+     "postcode": "700111"
+    },
+    {
+     "name": "Kagarko",
+     "postcode": "700112"
+    },
+    {
+     "name": "Kajuru",
+     "postcode": "700113"
+    },
+    {
+     "name": "Kaura",
+     "postcode": "700114"
+    },
+    {
+     "name": "Kauru",
+     "postcode": "700115"
+    },
+    {
+     "name": "Kubau",
+     "postcode": "700116"
+    },
+    {
+     "name": "Kudan",
+     "postcode": "700117"
+    },
+    {
+     "name": "Lere",
+     "postcode": "700118"
+    },
+    {
+     "name": "Makarfi",
+     "postcode": "700119"
+    },
+    {
+     "name": "Sabon Gari",
+     "postcode": "700120"
+    },
+    {
+     "name": "Sanga",
+     "postcode": "700121"
+    },
+    {
+     "name": "Soba",
+     "postcode": "700122"
+    },
+    {
+     "name": "Zangon Kataf",
+     "postcode": "700123"
+    },
+    {
+     "name": "Zaria",
+     "postcode": "700124"
+    }
+   ]
+  },
+  {
+   "code": "800001",
+   "region": "Kano",
+   "lgas": [
+    {
+     "name": "Ajingi",
+     "postcode": "800102"
+    },
+    {
+     "name": "Albasu",
+     "postcode": "800103"
+    },
+    {
+     "name": "Bagwai",
+     "postcode": "800104"
+    },
+    {
+     "name": "Bebeji",
+     "postcode": "800105"
+    },
+    {
+     "name": "Bichi",
+     "postcode": "800106"
+    },
+    {
+     "name": "Bunkure",
+     "postcode": "800107"
+    },
+    {
+     "name": "Dala",
+     "postcode": "800108"
+    },
+    {
+     "name": "Dambatta",
+     "postcode": "800109"
+    },
+    {
+     "name": "Dawakin Kudu",
+     "postcode": "800110"
+    },
+    {
+     "name": "Dawakin Tofa",
+     "postcode": "800111"
+    },
+    {
+     "name": "Doguwa",
+     "postcode": "800112"
+    },
+    {
+     "name": "Fagge",
+     "postcode": "800113"
+    },
+    {
+     "name": "Gabasawa",
+     "postcode": "800114"
+    },
+    {
+     "name": "Garko",
+     "postcode": "800115"
+    },
+    {
+     "name": "Garun Mallam",
+     "postcode": "800116"
+    },
+    {
+     "name": "Gaya",
+     "postcode": "800117"
+    },
+    {
+     "name": "Gezawa",
+     "postcode": "800118"
+    },
+    {
+     "name": "Gwale",
+     "postcode": "800119"
+    },
+    {
+     "name": "Gwarzo",
+     "postcode": "800120"
+    },
+    {
+     "name": "Kabo",
+     "postcode": "800121"
+    },
+    {
+     "name": "Kano Municipal",
+     "postcode": "800122"
+    },
+    {
+     "name": "Karaye",
+     "postcode": "800123"
+    },
+    {
+     "name": "Kibiya",
+     "postcode": "800124"
+    },
+    {
+     "name": "Kiru",
+     "postcode": "800125"
+    },
+    {
+     "name": "Kumbotso",
+     "postcode": "800126"
+    },
+    {
+     "name": "Kura",
+     "postcode": "800127"
+    },
+    {
+     "name": "Madobi",
+     "postcode": "800128"
+    },
+    {
+     "name": "Makoda",
+     "postcode": "800129"
+    },
+    {
+     "name": "Minjibir",
+     "postcode": "800130"
+    },
+    {
+     "name": "Nasarawa",
+     "postcode": "800131"
+    },
+    {
+     "name": "Rano",
+     "postcode": "800132"
+    },
+    {
+     "name": "Rimin Gado",
+     "postcode": "800133"
+    },
+    {
+     "name": "Rogo",
+     "postcode": "800134"
+    },
+    {
+     "name": "Shanono",
+     "postcode": "800135"
+    },
+    {
+     "name": "Sumaila",
+     "postcode": "800136"
+    },
+    {
+     "name": "Takai",
+     "postcode": "800137"
+    },
+    {
+     "name": "Tarauni",
+     "postcode": "800138"
+    },
+    {
+     "name": "Tofa",
+     "postcode": "800139"
+    },
+    {
+     "name": "Tsanyawa",
+     "postcode": "800140"
+    },
+    {
+     "name": "Tudun Wada",
+     "postcode": "800141"
+    },
+    {
+     "name": "Ungogo",
+     "postcode": "800142"
+    },
+    {
+     "name": "Warawa",
+     "postcode": "800143"
+    },
+    {
+     "name": "Wudil",
+     "postcode": "800144"
+    }
+   ]
+  },
+  {
+   "code": "820001",
+   "region": "Katsina",
+   "lgas": [
+    {
+     "name": "Bakori",
+     "postcode": "820102"
+    },
+    {
+     "name": "Batagarawa",
+     "postcode": "820103"
+    },
+    {
+     "name": "Batsari",
+     "postcode": "820104"
+    },
+    {
+     "name": "Baure",
+     "postcode": "820105"
+    },
+    {
+     "name": "Bindawa",
+     "postcode": "820106"
+    },
+    {
+     "name": "Charanchi",
+     "postcode": "820107"
+    },
+    {
+     "name": "Dan Musa",
+     "postcode": "820108"
+    },
+    {
+     "name": "Dandume",
+     "postcode": "820109"
+    },
+    {
+     "name": "Danja",
+     "postcode": "820110"
+    },
+    {
+     "name": "Daura",
+     "postcode": "820111"
+    },
+    {
+     "name": "Dutsi",
+     "postcode": "820112"
+    },
+    {
+     "name": "Dutsin Ma",
+     "postcode": "820113"
+    },
+    {
+     "name": "Faskari",
+     "postcode": "820114"
+    },
+    {
+     "name": "Funtua",
+     "postcode": "820115"
+    },
+    {
+     "name": "Ingawa",
+     "postcode": "820116"
+    },
+    {
+     "name": "Jibia",
+     "postcode": "820117"
+    },
+    {
+     "name": "Kafur",
+     "postcode": "820118"
+    },
+    {
+     "name": "Kaita",
+     "postcode": "820119"
+    },
+    {
+     "name": "Kankara",
+     "postcode": "820120"
+    },
+    {
+     "name": "Kankia",
+     "postcode": "820121"
+    },
+    {
+     "name": "Katsina",
+     "postcode": "820122"
+    },
+    {
+     "name": "Kurfi",
+     "postcode": "820123"
+    },
+    {
+     "name": "Kusada",
+     "postcode": "820124"
+    },
+    {
+     "name": "Mai'Adua",
+     "postcode": "820125"
+    },
+    {
+     "name": "Malumfashi",
+     "postcode": "820126"
+    },
+    {
+     "name": "Mani",
+     "postcode": "820127"
+    },
+    {
+     "name": "Mashi",
+     "postcode": "820128"
+    },
+    {
+     "name": "Matazu",
+     "postcode": "820129"
+    },
+    {
+     "name": "Musawa",
+     "postcode": "820130"
+    },
+    {
+     "name": "Rimi",
+     "postcode": "820131"
+    },
+    {
+     "name": "Sabuwa",
+     "postcode": "820132"
+    },
+    {
+     "name": "Safana",
+     "postcode": "820133"
+    },
+    {
+     "name": "Sandamu",
+     "postcode": "820134"
+    },
+    {
+     "name": "Zango",
+     "postcode": "820135"
+    }
+   ]
+  },
+  {
+   "code": "860001",
+   "region": "Kebbi",
+   "lgas": [
+    {
+     "name": "Aleiro",
+     "postcode": "860102"
+    },
+    {
+     "name": "Arewa Dandi",
+     "postcode": "860103"
+    },
+    {
+     "name": "Argungu",
+     "postcode": "860104"
+    },
+    {
+     "name": "Augie",
+     "postcode": "860105"
+    },
+    {
+     "name": "Bagudo",
+     "postcode": "860106"
+    },
+    {
+     "name": "Birnin Kebbi",
+     "postcode": "860107"
+    },
+    {
+     "name": "Bunza",
+     "postcode": "860108"
+    },
+    {
+     "name": "Dandi",
+     "postcode": "860109"
+    },
+    {
+     "name": "Fakai",
+     "postcode": "860110"
+    },
+    {
+     "name": "Gwandu",
+     "postcode": "860111"
+    },
+    {
+     "name": "Jega",
+     "postcode": "860112"
+    },
+    {
+     "name": "Kalgo",
+     "postcode": "860113"
+    },
+    {
+     "name": "Koko/Besse",
+     "postcode": "860114"
+    },
+    {
+     "name": "Maiyama",
+     "postcode": "860115"
+    },
+    {
+     "name": "Ngaski",
+     "postcode": "860116"
+    },
+    {
+     "name": "Sakaba",
+     "postcode": "860117"
+    },
+    {
+     "name": "Shanga",
+     "postcode": "860118"
+    },
+    {
+     "name": "Suru",
+     "postcode": "860119"
+    },
+    {
+     "name": "Wasagu/Danko",
+     "postcode": "860120"
+    },
+    {
+     "name": "Yauri",
+     "postcode": "860121"
+    },
+    {
+     "name": "Zuru",
+     "postcode": "860122"
+    }
+   ]
+  },
+  {
+   "code": "260001",
+   "region": "Kogi",
+   "lgas": [
+    {
+     "name": "Adavi",
+     "postcode": "260102"
+    },
+    {
+     "name": "Ajaokuta",
+     "postcode": "260103"
+    },
+    {
+     "name": "Ankpa",
+     "postcode": "260104"
+    },
+    {
+     "name": "Bassa",
+     "postcode": "260105"
+    },
+    {
+     "name": "Dekina",
+     "postcode": "260106"
+    },
+    {
+     "name": "Ibaji",
+     "postcode": "260107"
+    },
+    {
+     "name": "Idah",
+     "postcode": "260108"
+    },
+    {
+     "name": "Igalamela Odolu",
+     "postcode": "260109"
+    },
+    {
+     "name": "Ijumu",
+     "postcode": "260110"
+    },
+    {
+     "name": "Kabba/Bunu",
+     "postcode": "260111"
+    },
+    {
+     "name": "Kogi",
+     "postcode": "260112"
+    },
+    {
+     "name": "Lokoja",
+     "postcode": "260113"
+    },
+    {
+     "name": "Mopa Muro",
+     "postcode": "260114"
+    },
+    {
+     "name": "Ofu",
+     "postcode": "260115"
+    },
+    {
+     "name": "Ogori/Magongo",
+     "postcode": "260116"
+    },
+    {
+     "name": "Okehi",
+     "postcode": "260117"
+    },
+    {
+     "name": "Okene",
+     "postcode": "260118"
+    },
+    {
+     "name": "Olamaboro",
+     "postcode": "260119"
+    },
+    {
+     "name": "Omala",
+     "postcode": "260120"
+    },
+    {
+     "name": "Yagba East",
+     "postcode": "260121"
+    },
+    {
+     "name": "Yagba West",
+     "postcode": "260122"
+    }
+   ]
+  },
+  {
+   "code": "240001",
+   "region": "Kwara",
+   "lgas": [
+    {
+     "name": "Asa",
+     "postcode": "240102"
+    },
+    {
+     "name": "Baruten",
+     "postcode": "240103"
+    },
+    {
+     "name": "Edu",
+     "postcode": "240104"
+    },
+    {
+     "name": "Ekiti",
+     "postcode": "240105"
+    },
+    {
+     "name": "Ifelodun",
+     "postcode": "240106"
+    },
+    {
+     "name": "Ilorin East",
+     "postcode": "240107"
+    },
+    {
+     "name": "Ilorin South",
+     "postcode": "240108"
+    },
+    {
+     "name": "Ilorin West",
+     "postcode": "240109"
+    },
+    {
+     "name": "Irepodun",
+     "postcode": "240110"
+    },
+    {
+     "name": "Isin",
+     "postcode": "240111"
+    },
+    {
+     "name": "Kaiama",
+     "postcode": "240112"
+    },
+    {
+     "name": "Moro",
+     "postcode": "240113"
+    },
+    {
+     "name": "Offa",
+     "postcode": "240114"
+    },
+    {
+     "name": "Oke Ero",
+     "postcode": "240115"
+    },
+    {
+     "name": "Oyun",
+     "postcode": "240116"
+    },
+    {
+     "name": "Pategi",
+     "postcode": "240117"
+    }
+   ]
+  },
+  {
+   "code": "100001",
+   "region": "Lagos",
+   "lgas": [
+    {
+     "name": "Agege",
+     "postcode": "100102"
+    },
+    {
+     "name": "Ajeromi-Ifelodun",
+     "postcode": "100103"
+    },
+    {
+     "name": "Alimosho",
+     "postcode": "100104"
+    },
+    {
+     "name": "Amuwo-Odofin",
+     "postcode": "100105"
+    },
+    {
+     "name": "Apapa",
+     "postcode": "100106"
+    },
+    {
+     "name": "Badagry",
+     "postcode": "100107"
+    },
+    {
+     "name": "Epe",
+     "postcode": "100108"
+    },
+    {
+     "name": "Eti Osa",
+     "postcode": "100109"
+    },
+    {
+     "name": "Ibeju-Lekki",
+     "postcode": "100110"
+    },
+    {
+     "name": "Ifako-Ijaiye",
+     "postcode": "100111"
+    },
+    {
+     "name": "Ikeja",
+     "postcode": "100112"
+    },
+    {
+     "name": "Ikorodu",
+     "postcode": "100113"
+    },
+    {
+     "name": "Kosofe",
+     "postcode": "100114"
+    },
+    {
+     "name": "Lagos Island",
+     "postcode": "100115"
+    },
+    {
+     "name": "Lagos Mainland",
+     "postcode": "100116"
+    },
+    {
+     "name": "Mushin",
+     "postcode": "100117"
+    },
+    {
+     "name": "Ojo",
+     "postcode": "100118"
+    },
+    {
+     "name": "Oshodi-Isolo",
+     "postcode": "100119"
+    },
+    {
+     "name": "Shomolu",
+     "postcode": "100120"
+    },
+    {
+     "name": "Surulere",
+     "postcode": "100121"
+    }
+   ]
+  },
+  {
+   "code": "962001",
+   "region": "Nasarawa",
+   "lgas": [
+    {
+     "name": "Akwanga",
+     "postcode": "962102"
+    },
+    {
+     "name": "Awe",
+     "postcode": "962103"
+    },
+    {
+     "name": "Doma",
+     "postcode": "962104"
+    },
+    {
+     "name": "Karu",
+     "postcode": "962105"
+    },
+    {
+     "name": "Keana",
+     "postcode": "962106"
+    },
+    {
+     "name": "Keffi",
+     "postcode": "962107"
+    },
+    {
+     "name": "Kokona",
+     "postcode": "962108"
+    },
+    {
+     "name": "Lafia",
+     "postcode": "962109"
+    },
+    {
+     "name": "Nasarawa",
+     "postcode": "962110"
+    },
+    {
+     "name": "Nasarawa Egon",
+     "postcode": "962111"
+    },
+    {
+     "name": "Obi",
+     "postcode": "962112"
+    },
+    {
+     "name": "Toto",
+     "postcode": "962113"
+    },
+    {
+     "name": "Wamba",
+     "postcode": "962114"
+    }
+   ]
+  },
+  {
+   "code": "920001",
+   "region": "Niger",
+   "lgas": [
+    {
+     "name": "Agaie",
+     "postcode": "920102"
+    },
+    {
+     "name": "Agwara",
+     "postcode": "920103"
+    },
+    {
+     "name": "Bida",
+     "postcode": "920104"
+    },
+    {
+     "name": "Borgu",
+     "postcode": "920105"
+    },
+    {
+     "name": "Bosso",
+     "postcode": "920106"
+    },
+    {
+     "name": "Chanchaga",
+     "postcode": "920107"
+    },
+    {
+     "name": "Edati",
+     "postcode": "920108"
+    },
+    {
+     "name": "Gbako",
+     "postcode": "920109"
+    }
+   ]
+  },
+  {
+   "code": "110001",
+   "region": "Ogun",
+   "lgas": [
+    {
+     "name": "Abeokuta North",
+     "postcode": "110102"
+    },
+    {
+     "name": "Abeokuta South",
+     "postcode": "110103"
+    },
+    {
+     "name": "Ado-Odo/Ota",
+     "postcode": "110104"
+    },
+    {
+     "name": "Egbado North",
+     "postcode": "110105"
+    },
+    {
+     "name": "Egbado South",
+     "postcode": "110106"
+    },
+    {
+     "name": "Ewekoro",
+     "postcode": "110107"
+    },
+    {
+     "name": "Ifo",
+     "postcode": "110108"
+    },
+    {
+     "name": "Ijebu East",
+     "postcode": "110109"
+    },
+    {
+     "name": "Ijebu North",
+     "postcode": "110110"
+    },
+    {
+     "name": "Ijebu North East",
+     "postcode": "110111"
+    },
+    {
+     "name": "Ijebu Ode",
+     "postcode": "110112"
+    },
+    {
+     "name": "Ikenne",
+     "postcode": "110113"
+    },
+    {
+     "name": "Imeko Afon",
+     "postcode": "110114"
+    },
+    {
+     "name": "Ipokia",
+     "postcode": "110115"
+    },
+    {
+     "name": "Obafemi Owode",
+     "postcode": "110116"
+    },
+    {
+     "name": "Odeda",
+     "postcode": "110117"
+    },
+    {
+     "name": "Odogbolu",
+     "postcode": "110118"
+    },
+    {
+     "name": "Ogun Waterside",
+     "postcode": "110119"
+    },
+    {
+     "name": "Remo North",
+     "postcode": "110120"
+    },
+    {
+     "name": "Shagamu",
+     "postcode": "110121"
+    }
+   ]
+  },
+  {
+   "code": "340001",
+   "region": "Ondo",
+   "lgas": [
+    {
+     "name": "Akoko North-East",
+     "postcode": "340102"
+    },
+    {
+     "name": "Akoko North-West",
+     "postcode": "340103"
+    },
+    {
+     "name": "Akoko South-East",
+     "postcode": "340104"
+    },
+    {
+     "name": "Akoko South-West",
+     "postcode": "340105"
+    },
+    {
+     "name": "Akure North",
+     "postcode": "340106"
+    },
+    {
+     "name": "Akure South",
+     "postcode": "340107"
+    },
+    {
+     "name": "Ese Odo",
+     "postcode": "340108"
+    },
+    {
+     "name": "Idanre",
+     "postcode": "340109"
+    },
+    {
+     "name": "Ifedore",
+     "postcode": "340110"
+    },
+    {
+     "name": "Ilaje",
+     "postcode": "340111"
+    },
+    {
+     "name": "Ile Oluji/Okeigbo",
+     "postcode": "340112"
+    },
+    {
+     "name": "Irele",
+     "postcode": "340113"
+    },
+    {
+     "name": "Odigbo",
+     "postcode": "340114"
+    },
+    {
+     "name": "Okitipupa",
+     "postcode": "340115"
+    },
+    {
+     "name": "Ondo East",
+     "postcode": "340116"
+    },
+    {
+     "name": "Ondo West",
+     "postcode": "340117"
+    },
+    {
+     "name": "Ose",
+     "postcode": "340118"
+    },
+    {
+     "name": "Owo",
+     "postcode": "340119"
+    }
+   ]
+  },
+  {
+   "code": "230001",
+   "region": "Osun",
+   "lgas": [
+    {
+     "name": "Aiyedaade",
+     "postcode": "230102"
+    },
+    {
+     "name": "Aiyedire",
+     "postcode": "230103"
+    },
+    {
+     "name": "Atakumosa East",
+     "postcode": "230104"
+    },
+    {
+     "name": "Atakumosa West",
+     "postcode": "230105"
+    },
+    {
+     "name": "Boluwaduro",
+     "postcode": "230106"
+    },
+    {
+     "name": "Boripe",
+     "postcode": "230107"
+    },
+    {
+     "name": "Ede North",
+     "postcode": "230108"
+    },
+    {
+     "name": "Ede South",
+     "postcode": "230109"
+    },
+    {
+     "name": "Egbedore",
+     "postcode": "230110"
+    },
+    {
+     "name": "Ejigbo",
+     "postcode": "230111"
+    },
+    {
+     "name": "Ife Central",
+     "postcode": "230112"
+    },
+    {
+     "name": "Ife East",
+     "postcode": "230113"
+    },
+    {
+     "name": "Ife North",
+     "postcode": "230114"
+    },
+    {
+     "name": "Ife South",
+     "postcode": "230115"
+    },
+    {
+     "name": "Ifedayo",
+     "postcode": "230116"
+    },
+    {
+     "name": "Ifelodun",
+     "postcode": "230117"
+    },
+    {
+     "name": "Ila",
+     "postcode": "230118"
+    },
+    {
+     "name": "Ilesa East",
+     "postcode": "230119"
+    },
+    {
+     "name": "Ilesa West",
+     "postcode": "230120"
+    },
+    {
+     "name": "Irepodun",
+     "postcode": "230121"
+    },
+    {
+     "name": "Irewole",
+     "postcode": "230122"
+    },
+    {
+     "name": "Isokan",
+     "postcode": "230123"
+    },
+    {
+     "name": "Iwo",
+     "postcode": "230124"
+    },
+    {
+     "name": "Obokun",
+     "postcode": "230125"
+    },
+    {
+     "name": "Odo Otin",
+     "postcode": "230126"
+    },
+    {
+     "name": "Ola Oluwa",
+     "postcode": "230127"
+    },
+    {
+     "name": "Olorunda",
+     "postcode": "230128"
+    },
+    {
+     "name": "Oriade",
+     "postcode": "230129"
+    },
+    {
+     "name": "Orolu",
+     "postcode": "230130"
+    },
+    {
+     "name": "Osogbo",
+     "postcode": "230131"
+    }
+   ]
+  },
+  {
+   "code": "200001",
+   "region": "Oyo",
+   "lgas": [
+    {
+     "name": "Afijio",
+     "postcode": "200102"
+    },
+    {
+     "name": "Akinyele",
+     "postcode": "200103"
+    },
+    {
+     "name": "Atiba",
+     "postcode": "200104"
+    },
+    {
+     "name": "Atisbo",
+     "postcode": "200105"
+    },
+    {
+     "name": "Egbeda",
+     "postcode": "200106"
+    },
+    {
+     "name": "Ibadan North",
+     "postcode": "200107"
+    },
+    {
+     "name": "Ibadan North-East",
+     "postcode": "200108"
+    },
+    {
+     "name": "Ibadan North-West",
+     "postcode": "200109"
+    },
+    {
+     "name": "Ibadan South-East",
+     "postcode": "200110"
+    },
+    {
+     "name": "Ibadan South-West",
+     "postcode": "200111"
+    },
+    {
+     "name": "Ibarapa Central",
+     "postcode": "200112"
+    },
+    {
+     "name": "Ibarapa East",
+     "postcode": "200113"
+    },
+    {
+     "name": "Ibarapa North",
+     "postcode": "200114"
+    },
+    {
+     "name": "Ido",
+     "postcode": "200115"
+    },
+    {
+     "name": "Irepo",
+     "postcode": "200116"
+    },
+    {
+     "name": "Iseyin",
+     "postcode": "200117"
+    },
+    {
+     "name": "Itesiwaju",
+     "postcode": "200118"
+    },
+    {
+     "name": "Iwajowa",
+     "postcode": "200119"
+    },
+    {
+     "name": "Kajola",
+     "postcode": "200120"
+    },
+    {
+     "name": "Lagelu",
+     "postcode": "200121"
+    },
+    {
+     "name": "Ogbomosho North",
+     "postcode": "200122"
+    },
+    {
+     "name": "Ogbomosho South",
+     "postcode": "200123"
+    },
+    {
+     "name": "Ogo Oluwa",
+     "postcode": "200124"
+    },
+    {
+     "name": "Olorunsogo",
+     "postcode": "200125"
+    },
+    {
+     "name": "Oluyole",
+     "postcode": "200126"
+    },
+    {
+     "name": "Ona Ara",
+     "postcode": "200127"
+    },
+    {
+     "name": "Ori Ire",
+     "postcode": "200128"
+    },
+    {
+     "name": "Oyo East",
+     "postcode": "200129"
+    },
+    {
+     "name": "Oyo West",
+     "postcode": "200130"
+    },
+    {
+     "name": "Saki East",
+     "postcode": "200131"
+    },
+    {
+     "name": "Saki West",
+     "postcode": "200132"
+    },
+    {
+     "name": "Surulere",
+     "postcode": "200133"
+    }
+   ]
+  }
+ ]
+}
